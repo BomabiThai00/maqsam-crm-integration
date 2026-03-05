@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed on your local machine:
 **1. Clone the repository and navigate into the directory:**
 
 ```bash
-git clone https://github.com/YourOrg/maqsam-crm-integration.git
+git clone https://github.com/BomabiThai00/maqsam-crm-integration
 cd maqsam-crm-integration
 
 ```
