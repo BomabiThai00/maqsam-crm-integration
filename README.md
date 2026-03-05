@@ -1,6 +1,6 @@
 # Maqsam Click-to-Call CRM Integration
 
-This repository contains a production-ready, decoupled microservice for integrating a CRM with Maqsam's telephony systems.
+This repository contains decoupled microservice for integrating a CRM with Maqsam's telephony systems.
 
 It handles initiating outbound calls, catching call-completion webhooks via a local database queue, and asynchronously downloading the call recordings for CRM mapping. This event-driven architecture ensures zero data loss during network hiccups or API rate limits.
 
