@@ -43,9 +43,9 @@ pip install flask requests python-dotenv
 Create a file named `.env` in the root directory and add your credentials:
 
 ```env
-# 1. Maqsam API Credentials
-MAQSAM_BASE_URL=api.maqsam.com
-MAQSAM_ACCESS_KEY_ID=your_access_key_here
+# 1. Maqsam API Credentials  # from maqsam portal under API_credentials
+MAQSAM_BASE_URL=api.{base_url}
+MAQSAM_ACCESS_KEY_ID=your_access_key_here 
 MAQSAM_ACCESS_SECRET=your_secret_key_here
 
 # 2. Server Configuration
